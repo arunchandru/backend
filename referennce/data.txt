@@ -1,0 +1,30 @@
+
+
+{
+  "name": "arunKumar",
+  "email": "arunchandru122@gmail.com",
+  "phone": 7879999349,
+}
+
+
+
+ORDERS:::::::::::::::
+
+
+{
+  "orderId": "#34346",
+  "product": "The National Council of Teachers of English",
+  "customer": "John sanders",
+  "status": "paid",
+  "total": "$259.35",
+  "action": "view"
+}
+
+{ 
+  "orderId": "#15346",
+  "product": "Lorem ipsum dolor sit amet eget volut...",
+  "customer": "Joson santom",
+  "status": "paid",
+  "total": "$98.35",
+  "action": "View"
+}
