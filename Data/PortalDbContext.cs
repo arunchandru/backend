@@ -17,6 +17,7 @@ namespace WebApplicationAPI.Data
         public DbSet<Country> Country { get; set; }
         public DbSet<Notification> Notification { get; set; }
         public DbSet<FileRecord> Document { get; set; }
+        public DbSet<HelpCenter> HelpCenter { get; set; }
 
 
   }

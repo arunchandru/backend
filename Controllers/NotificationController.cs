@@ -28,15 +28,7 @@ namespace WebApplicationAPI.Controllers
       foreach (var item in notify)
       {
         var file = _portalDbContext.Document.Where(n => n.Id == item.Id).FirstOrDefault();
-
-        var path = Path.Combine(AppDirectory, file?.FilePath);
-
-        var memory = new MemoryStream();
-        using (var stream = new FileStream(path, FileMode.Open))
-        {
-          await stream.CopyToAsync(memory);
-        }
-
+      
       }
         return Ok(notify);
     }
